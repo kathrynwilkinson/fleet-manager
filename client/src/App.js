@@ -40,21 +40,22 @@ function App() {
         <Router>
             {!user &&
                 <Routes>
-                    <Route exact path='/' element={<Login setUser={setUser} />} />
-                    <Route path='*' element= {<Login setUser={setUser} />} />
+                    <Route index element={<Login setUser={setUser} />} />
+                    <Route path='*' element={<Login setUser={setUser} />} />
                 </Routes>}
             {user &&
                 <>
                 <MenuToolbar linkHidden={user.type === "Administrator" ? false : true} setUser={setUser} />
                     <Routes>
-                        <Route exact path={['/', '/dashboard']}>{user.type === "Administrator" ? <Dashboard user={user} /> : <EmpDash user={user} />}</Route>
-                        <Route exact path='/createjob'>{user.type === "Administrator" ? <CreateJob user={user} /> : ""} </Route>
-                        <Route exact path='/crews'>{user.type === "Administrator" ? <Crews /> : ""} </Route>
-                        <Route exact path='/jobdetail/:id'><JobDetail inputDisabled={user.type === "Employee" ? true : false} /></Route>
+                        <Route index element={user.type === "Administrator" ? <Dashboard user={user} /> : <EmpDash user={user} />} />
+                        <Route path={'/dashboard'} element={user.type === "Administrator" ? <Dashboard user={user} /> : <EmpDash user={user} />} />
+                        <Route path='/createjob' element={user.type === "Administrator" ? <CreateJob user={user} /> : ""} />
+                        <Route path='/crews' element={user.type === "Administrator" ? <Crews /> : ""} />
+                        <Route path='/jobdetail/:id' element={<JobDetail inputDisabled={user.type === "Employee" ? true : false} />} />
 
-                        <Route exact path='/form'><Form /></Route>
-                        <Route exact path='/jobdetail' component={() => <JobDetail user={user} />}></Route>
-                        <Route path='*' component={() => <JobDetail user={user} />}></Route>
+                        <Route path='/form' element={<Form />} />
+                        <Route path='/jobdetail' element={<JobDetail user={user} />} />
+                        <Route path='*' element={<JobDetail user={user} />} />
                     </Routes>
                 </>
             }
