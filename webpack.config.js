@@ -67,6 +67,10 @@ module.exports = function(_env, argv) {
             new HtmlWebpackPlugin({
                 template: path.resolve(__dirname, 'public/index.html'),
                 inject: true
+            }),
+            new webpack.ProvidePlugin({
+                Buffer:['buffer','Buffer'],
+                process:'process/browser.js'
             })
         ].filter(Boolean),
         optimization: {

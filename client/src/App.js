@@ -40,8 +40,8 @@ function App() {
         <Router>
             {!user &&
                 <Routes>
-                    <Route exact path='/'><Login setUser={setUser} /></Route>
-                    <Route path='*'><Login setUser={setUser} /></Route>
+                    <Route exact path='/' element={<Login setUser={setUser} />} />
+                    <Route path='*' element= {<Login setUser={setUser} />} />
                 </Routes>}
             {user &&
                 <>
