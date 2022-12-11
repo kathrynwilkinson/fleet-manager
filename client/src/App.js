@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
 import './App.css';
+import React, { useState, useEffect } from 'react';
 import Login from './pages/Login';
 import MenuToolbar from './components/MenuToolbar';
 import Dashboard from './pages/Dashboard';
@@ -11,12 +11,8 @@ import JobDetail from './pages/JobDetail';
 import Crews from './pages/Crews';
 import axios from 'axios';
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Redirect,
-    Route,
-} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Route, Routes } from 'react-router';
 import { useRadioGroup } from '@material-ui/core';
 
 function App() {
@@ -43,23 +39,23 @@ function App() {
     return (
         <Router>
             {!user &&
-                <Switch>
+                <Routes>
                     <Route exact path='/'><Login setUser={setUser} /></Route>
-                    <Redirect to="/"></Redirect>
-                </Switch>}
+                    <Route path='*'><Login setUser={setUser} /></Route>
+                </Routes>}
             {user &&
                 <>
                 <MenuToolbar linkHidden={user.type === "Administrator" ? false : true} setUser={setUser} />
-                    <Switch>
+                    <Routes>
                         <Route exact path={['/', '/dashboard']}>{user.type === "Administrator" ? <Dashboard user={user} /> : <EmpDash user={user} />}</Route>
-                    <Route exact path='/createjob'>{user.type === "Administrator" ? <CreateJob user={user} /> : ""} </Route>
+                        <Route exact path='/createjob'>{user.type === "Administrator" ? <CreateJob user={user} /> : ""} </Route>
                         <Route exact path='/crews'>{user.type === "Administrator" ? <Crews /> : ""} </Route>
                         <Route exact path='/jobdetail/:id'><JobDetail inputDisabled={user.type === "Employee" ? true : false} /></Route>
 
                         <Route exact path='/form'><Form /></Route>
                         <Route exact path='/jobdetail' component={() => <JobDetail user={user} />}></Route>
-                        <Redirect to="/"></Redirect>
-                    </Switch>
+                        <Route path='*' component={() => <JobDetail user={user} />}></Route>
+                    </Routes>
                 </>
             }
 
@@ -70,5 +66,4 @@ function App() {
 
 export default App;
 
-//switch statement - if not logged in, redirect to login page
-//
+//TODO: switch statement - if not logged in, redirect to login page
