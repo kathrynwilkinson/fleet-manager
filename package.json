@@ -47,7 +47,7 @@
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "client": "cd client && npm run start",
-    "install": "cd client && npm install",
+    "install": "cd client && npm install --force",
     "build": "cd client && npm run build",
     "seed": "node seeds/index.js"
   }
