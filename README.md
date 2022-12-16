@@ -90,13 +90,17 @@ Go to the url of the application (http//:localhost:3000) to begin using it
 
 ### Contribute
 
-Creators:
+Original Creators: [of Custom Workforce Manager](https://github.com/will98nicholson/Custom-Workforce-Manager)
 
 - Michael Kotte: <https://github.com/mkotte>
 - Kathryn Wilkinson: <https://github.com/NAHco-code>
 - William Nicholson: <https://github.com/will98nicholson>
 - Brandon King: <https://github.com/thebsking>
 - Corrinne Worden: <https://github.com/CorrinneW>
+
+Contributing to [this repository](https://github.com/kathrynwilkinson/workforce-manager): 
+
+- Kathryn Wilkinson: <https://github.com/kathrynwilkinson>
 
 If you have something you'd like to contribute, make a pull request!
 
