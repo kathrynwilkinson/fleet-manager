@@ -55,8 +55,11 @@
 
 ### Links
 
-- Deployed Application: Personal Version - <https://tranquil-forest-68396.herokuapp.com/>
-- Deployed Application: Original - <https://custom-workforce-manager.herokuapp.com/>
+- Deployed Application: Original Group Project- <https://custom-workforce-manager.herokuapp.com/>
+- Deployed Application: Group Project Fork - <https://tranquil-forest-68396.herokuapp.com/>
+- Deployed Application: Current Repository - <>
+
+* Note: Project was originally developed as a group project. Code from this repository was copied from the forked version I worked on as a sole contributor after that. Created a new repository to enable heroku deployment. 
 
 ### Installation
 
