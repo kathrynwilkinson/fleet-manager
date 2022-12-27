@@ -28,13 +28,13 @@ Utilized the MERN stack to create an application that allows a business to effec
     - receive job information and create jobs
     - assign jobs to employees
     - monitor employee Job progress
-    SO THAT I can efficently operate and manage my small / medium sized business's fleet employees.
+    SO THAT I can efficiently operate and manage my small / medium sized business's fleet employees.
 
     AS AN EMPLOYEE
     I WANT to be able to
     - view assigned jobs for the day
-    - access jobsite information (i.e. address, contact information, notes, etc)
-    - complete related jobsite forms/invoices
+    - access job-site information (i.e. address, contact information, notes, etc)
+    - complete related job-site forms/invoices
     - mark jobs completed
     - have the ability to continue to work while remote and offline
     SO THAT I can continue to complete my job expectations in an easy and organized fashion.
@@ -59,12 +59,13 @@ Utilized the MERN stack to create an application that allows a business to effec
 
 ## Links
 
-- Original Group Project: [Custom Workforce Manager](https://github.com/will98nicholson/Custom-Workforce-Manager)
-- Group Project Fork: [Custom Workforce Manager fork](https://github.com/kathrynwilkinson/Custom-Workforce-Manager-personal-version)
-- New Repo [Fleet Manager](https://github.com/kathrynwilkinson/fleet-manager)
-- New Repo Deployed: [fleet-manager](https://fleet-manager-react.herokuapp.com)
+- [Github Repository](https://github.com/kathrynwilkinson/fleet-manager)
+- [Deployed on Heroku](https://fleet-manager-react.herokuapp.com)
 
-* Note: Project was originally developed as a group project. I forked the original group project when it was in a working state and made some minor contributions. More recently, I created a new repository in order to deploy my personal copy of the project and continue working on it. I've since invited some of the original collaborators to assist in updating and maintaining this project. 
+Note: Project was originally developed as a group project. I forked the original group project when it was in a working state and made some minor contributions. More recently, I created a new repository in order to deploy my personal copy of the project and continue working on it. I've since invited some of the original collaborators to assist in updating and maintaining this project.
+
+- Original Group Project: [Custom Workforce Manager](https://github.com/will98nicholson/Custom-Workforce-Manager)
+- Group Project Fork: [Custom Workforce Manager personal version](https://github.com/kathrynwilkinson/Custom-Workforce-Manager-personal-version)
 
 ## Installation and Usage
 
@@ -72,7 +73,7 @@ This program can be run through a browser using the link to the the deployed app
 
 ### Login Information
 
-- [Fleet Manager](https://fleet-manager-react.herokuapp.com) (Deployed Application)
+- Fleet Manager: [Deployed](https://fleet-manager-react.herokuapp.com)
   - Admin Username: Crew #1 | Password: 4CfkVBoxV
   - Employee Username: Crew #2 | Password: Ggjz4t1
 
@@ -90,7 +91,7 @@ Go to the url of the application (http//:localhost:3000) to begin using it
 Original project: [Custom Workforce Manager](https://github.com/will98nicholson/Custom-Workforce-Manager)
 
 - Michael Kotte: <https://github.com/mkotte>
-- Kathryn Wilkinson: <https://github.com/NAHco-code>
+- Kathryn Wilkinson: <https://github.com/kathrynwilkinson>
 - William Nicholson: <https://github.com/will98nicholson>
 - Brandon King: <https://github.com/thebsking>
 - Corrinne Worden: <https://github.com/CorrinneW>
@@ -106,8 +107,8 @@ If you'd like to contribute, send a message and make a pull request!
 
 ## Future Development
 
-- Available offline (PWA funtionality)
-- Downloadable to android + ios homescreen's
+- Available offline (PWA functionality)
+- Downloadable to android + ios home-screen
 - Device camera functionality / implementation
 - Fast load speeds
 - Mobile app look/feel (currently styled for tablet devices)
@@ -117,10 +118,10 @@ If you'd like to contribute, send a message and make a pull request!
 
 Please feel free to contact us with any questions via email.
 
-- Kathryn Wilkinson [kathrynxwilk@gmail.com](kathrynxwilk@gmail.com)
-- Jon Jackson [ocskier@gmail.com](ocskier@gmail.com)
-- C. Michael Kotte [michaelkotte1@gmail.com](michaelkotte1@gmail.com)
-- Brandon King [brandonscottking@gmail.com](brandonscottking@gmail.com)
+- Kathryn Wilkinson: [kathrynxwilk@gmail.com](kathrynxwilk@gmail.com)
+- Jon Jackson: [ocskier@gmail.com](ocskier@gmail.com)
+- C. Michael Kotte: [michaelkotte1@gmail.com](michaelkotte1@gmail.com)
+- Brandon King: [brandonscottking@gmail.com](brandonscottking@gmail.com)
 
 ## License
 
