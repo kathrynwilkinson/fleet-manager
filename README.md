@@ -96,7 +96,7 @@ Original project: [Custom Workforce Manager](https://github.com/will98nicholson/
 - Brandon King: <https://github.com/thebsking>
 - Corrinne Worden: <https://github.com/CorrinneW>
 
-This project [Fleet Manager](https://github.com/kathrynwilkinson/fleet-manager)
+This project: [Fleet Manager](https://github.com/kathrynwilkinson/fleet-manager)
 
 - Kathryn Wilkinson: <https://github.com/kathrynwilkinson>
 - Jon Jackson: <https://github.com/ocskier>
