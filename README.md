@@ -1,24 +1,27 @@
 
-# Custom Workforce Manager
-
-## Progressive Web Application (Mobile/Tablet First)
+# Fleet Manager
 
 ![License: Apache](https://img.shields.io/badge/License-Apache2.0-yellow.svg)
 
+Utilized the MERN stack to create an application that allows a business to effectively manage their WorkForce while streamlining communication between administrators and their employees.
+
 ## Table of Contents
 
+- [Description](#fleet-manager)
 - [User Story](#user-story)
 - [Tech](#tech)
 - [Visuals](#visuals)
 - [Links](#links)
-- [Installation](#installation)
+- [Installation & Usage](#installation-and-usage)
+  - [Login Info](#login-information)
+- [Contributing](#contributing)
 - [Future Development](#future-development)
-- [Contribute](#contribute)
-- [Contact Me](#questions)
+- [Contact Us](#questions)
 - [License](#license)
 
-### User Story
+## User Story
 
+```md
     AS AN ADMINISTRATOR
     I WANT to be able to
     - create invoices, that employees can easily fill out
@@ -35,8 +38,9 @@
     - mark jobs completed
     - have the ability to continue to work while remote and offline
     SO THAT I can continue to complete my job expectations in an easy and organized fashion.
+ ```
 
-### Tech
+## Tech
 
 - MongoDb
 - Express
@@ -47,23 +51,32 @@
 - Moment
 - react-material-ui
 
-### Visuals
+## Visuals
 
 ![sign-in](./client/src/assets/images/project-screenshots/custom-workforce-manager-sign-in.PNG) ![admin-dashboard](./client/src/assets/images/project-screenshots/custom-workforce-manager-admin-dash.PNG)
 ![job-assignment](./client/src/assets/images/project-screenshots/custom-workforce-manager-job-assignment.PNG) ![job-detail](./client/src/assets/images/project-screenshots/custom-workforce-manager-job-detail.PNG)
 ![invoice](./client/src/assets/images/project-screenshots/custom-workforce-manager-invoice.PNG)
 
-### Links
+## Links
 
 - Original Group Project: [Custom Workforce Manager](https://github.com/will98nicholson/Custom-Workforce-Manager)
-- Group Project Fork: [Custom Workforce Manager fork](https://github.com/kathrynwilkinson/workforce-manager)
-- Deployed Application: [workforce-manager](https://fleet-manager-react.herokuapp.com)
+- Group Project Fork: [Custom Workforce Manager fork](https://github.com/kathrynwilkinson/Custom-Workforce-Manager-personal-version)
+- New Repo [Fleet Manager](https://github.com/kathrynwilkinson/fleet-manager)
+- New Repo Deployed: [fleet-manager](https://fleet-manager-react.herokuapp.com)
 
-* Note: Project was originally developed as a group project. Code from this repository was copied from the forked version I worked on as a sole contributor after that. Created a new repository to enable heroku deployment. 
+* Note: Project was originally developed as a group project. I forked the original group project when it was in a working state and made some minor contributions. More recently, I created a new repository in order to deploy my personal copy of the project and continue working on it. I've since invited some of the original collaborators to assist in updating and maintaining this project. 
 
-### Installation
+## Installation and Usage
 
-This program can be run through a browser using the above link to the the deployed application. Alternatively, to run this application locally you will need to:
+This program can be run through a browser using the link to the the deployed application and the login information below:
+
+### Login Information
+
+- [Fleet Manager](https://fleet-manager-react.herokuapp.com) (Deployed Application)
+  - Admin Username: Crew #1 | Password: 4CfkVBoxV
+  - Employee Username: Crew #2 | Password: Ggjz4t1
+
+Alternatively, to run this application locally you will need to:
 
 Clone this repository to receive all of the files
 Set up your environment variables in a .env file
@@ -72,25 +85,9 @@ Populate the existing database items by running "npm run seed" in your terminal
 Run "npm start" to start the application's connection
 Go to the url of the application (http//:localhost:3000) to begin using it
 
-#### Login Information
+## Contributing
 
-- Admin Username: Crew #1 | Password: 4CfkVBoxV
-- Employee Username: Crew #2 | Password: Ggjz4t1
-
-### Future Development
-
-#### PWA Functionalities (in progress)
-
-- Available offline
-- Downloadable to android + ios homescreen's
-- Device camera functionality / implementation
-- Fast load speeds
-- Mobile app look/feel
-- Push Notifications (mobile + desktop)
-
-### Contribute
-
-Original Creators: [of Custom Workforce Manager](https://github.com/will98nicholson/Custom-Workforce-Manager)
+Original project: [Custom Workforce Manager](https://github.com/will98nicholson/Custom-Workforce-Manager)
 
 - Michael Kotte: <https://github.com/mkotte>
 - Kathryn Wilkinson: <https://github.com/NAHco-code>
@@ -98,27 +95,36 @@ Original Creators: [of Custom Workforce Manager](https://github.com/will98nichol
 - Brandon King: <https://github.com/thebsking>
 - Corrinne Worden: <https://github.com/CorrinneW>
 
-Contributing to [this repository](https://github.com/kathrynwilkinson/workforce-manager): 
+This project [Fleet Manager](https://github.com/kathrynwilkinson/fleet-manager)
 
 - Kathryn Wilkinson: <https://github.com/kathrynwilkinson>
+- Jon Jackson: <https://github.com/ocskier>
 
-If you have something you'd like to contribute, make a pull request!
+If you'd like to contribute, send a message and make a pull request!
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
+
+## Future Development
+
+- Available offline (PWA funtionality)
+- Downloadable to android + ios homescreen's
+- Device camera functionality / implementation
+- Fast load speeds
+- Mobile app look/feel (currently styled for tablet devices)
+- Push Notifications (mobile + desktop)
 
 ## Questions?
 
 Please feel free to contact us with any questions via email.
 
-- [michaelkotte1@gmail.com](michaelkotte1@gmail.com)
-- [kathrynxwilk@gmail.com](kathrynxwilk@gmail.com)
-- [will98nicholson@gmail.com](will98nicholson@gmail.com)
-- [brandonscottking@gmail.com](brandonscottking@gmail.com)
-- [corrinneworden@gmail.com](corrinneworden@gmail.com)
+- Kathryn Wilkinson [kathrynxwilk@gmail.com](kathrynxwilk@gmail.com)
+- Jon Jackson [ocskier@gmail.com](ocskier@gmail.com)
+- C. Michael Kotte [michaelkotte1@gmail.com](michaelkotte1@gmail.com)
+- Brandon King [brandonscottking@gmail.com](brandonscottking@gmail.com)
 
 ## License
 
 This project is licensed under the Apache 2.0 License.
 For more information, please visit: [Apache Explained](https://choosealicense.com/licenses/apache-2.0/)
 
-&copy; 2021 k.wilkinson | m.kotte | w.nicholson | b.king | c.worden
+&copy; 2021 k.wilkinson | j.jackson | m.kotte | b.king | w.nicholson | c.worden
